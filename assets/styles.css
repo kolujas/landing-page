@@ -1,0 +1,193 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  color: #fff;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+
+
+header{
+  background-color: #1f2937;
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+
+header .logo-container .logo{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.right-links ul{
+  display: flex;
+  gap: 16px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 50px 30px;
+  gap: 30px;
+  
+}
+
+.hero .main-text{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.link-text,
+.hero .secondary-text{
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.hero img{
+  width: 300px;
+  height: 300px;
+}
+
+.hero-button{
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 8px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.information h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.info-boxes div{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.information .info-boxes .box{
+  border: 2px solid #3882f6;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+.quote-text-section{
+  background-color: #e5e7eb;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-text-section .quote-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  padding: 25px 0;
+}
+
+.quote-container blockquote p{
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-text-section div p{
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-text-section p cite{
+  font-weight: bold;
+}
+
+.quote-text-section .author p{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-weight: 900;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.cta-container{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.info-container{
+  background-color: #3882f6;
+  height: 120px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.cta-container button{
+  border-radius: 5px;
+  width: 100px;
+  border: 2px solid #fff;
+  background-color: #3882f6;
+  color: #fff;
+  padding: 5px;
+}
+
+footer{
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  margin: 0;
+}
